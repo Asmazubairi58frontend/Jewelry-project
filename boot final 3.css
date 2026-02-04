@@ -1,0 +1,126 @@
+        /* navbar */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(243, 247, 195);
+            overflow-x: hidden;
+        }
+
+        .nav .navbar {
+            box-shadow: 2px 2px 3px black;
+            position: fixed;
+            background-color: rgb(200, 211, 80);
+
+        }
+
+
+        .nav .offcanvas a {
+            display: block;
+            text-align: center;
+            font-style: italic;
+            letter-spacing: 1px;
+            line-height: 38px;
+            color: black;
+        }
+
+        .nav .offcanvas {
+            background-color: rgb(243, 247, 195);
+
+        }
+
+        .nav .offcanvas a:hover {
+            background-color: white;
+
+        }
+
+        .work .photoo {
+            width: 220px;
+            height: 60px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav .mark {
+            background-color: rgb(200, 211, 80) !important;
+        }
+
+        #iicon {
+            color: white;
+        }
+
+        /* header-part */
+        .head {
+            background-image: linear-gradient(rgb(243, 247, 195), white);
+            margin-top: 120px;
+        }
+
+        .head .card-img {
+            background: url(./Telegram/taj.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: auto;
+            box-shadow: 3px 3px 4px black;
+            border-radius: 120px 120px 0 0;
+            height: 290px;
+        }
+
+        /* classic-jewelry */
+        .classic {
+            margin-top: 450px;
+        }
+
+        .classic .card {
+            border-radius: 130px 130px 0 0;
+        }
+
+        .classic-text {
+            font-style: italic;
+            font: bold;
+        }
+
+        /* forth-part */
+        .fix img {
+            height: 200px;
+        }
+
+        .fix {
+            font-style: italic;
+            text-align: center;
+        }
+
+        .main-row {
+            margin-top: 130px;
+            background-image: linear-gradient(white 30%, rgb(243, 247, 195));
+        }
+
+        .fix-2 {
+            font-style: italic;
+        }
+
+        .fix-3 {
+            height: 210px;
+        }
+
+        /* footer-part */
+        .footer-page {
+            font-style: italic;
+        }
+
+        .footer-page a {
+            color: black;
+            background-color: white;
+            padding: 5px;
+            margin: 7px;
+        }
+
+        .footer-page a:hover {
+            color: white;
+            background-color: rgb(200, 211, 80);
+            padding: 8px;
+            margin: 7px;
+        }
+
+        .footer-page h5 {
+            text-shadow: 2px 2px 3px white;
+        }

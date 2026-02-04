@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 247, 195);
+    overflow-x: hidden;
+}
+
+.nav .navbar {
+    box-shadow: 2px 2px 3px black;
+    position: fixed;
+    background-color: rgb(200, 211, 80);
+
+}
+
+
+.nav .offcanvas a {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: black;
+}
+
+.nav .offcanvas {
+    background-color: rgb(243, 247, 195);
+
+}
+
+.nav .offcanvas a:hover {
+    background-color: white;
+
+}
+
+.work .photoo {
+    width: 220px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav .mark {
+    background-color: rgb(200, 211, 80) !important;
+
+}
+
+#iicon {
+    color: white;
+}
+
+/* team */
+.member .member-text {
+    margin-top: 100px;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.team-card {
+    transition: background-color 0.4s ease;
+    border-radius: 12px;
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+.team-card:hover {
+    background-color: #ffffff;
+}
+
+.team-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team-info h5,
+.team-info p {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ease;
+}
+
+.team-info p {
+    font-style: italic;
+}
+
+.tean-card:hover .team-info h5,
+.team-card:hover .team-info p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width:768px) {
+    .team-card {
+        flex-direction: column !important;
+        text-align: center;
+        align-items: center !important;
+    }
+
+    .team-info {
+        margin-top: 15px;
+    }
+}
+
+/* footer-part */
+.footer-page {
+    font-style: italic;
+}
+
+.footer-page a {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin: 7px;
+}
+
+.footer-page a:hover {
+    color: white;
+    background-color: rgb(200, 211, 80);
+    padding: 8px;
+    margin: 7px;
+}
+
+.footer-page h5 {
+    text-shadow: 2px 2px 3px white;
+}

@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url(Telegram/taj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.nav .navbar {
+    box-shadow: 2px 2px 3px black;
+    position: fixed;
+    background-color: rgb(200, 211, 80);
+
+}
+
+
+.nav .offcanvas a {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: black;
+}
+
+.nav .offcanvas {
+    background-color: rgb(243, 247, 195);
+
+}
+
+.nav .offcanvas a:hover {
+    background-color: white;
+
+}
+
+.work .photoo {
+    width: 220px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav .mark {
+    background-color: rgb(200, 211, 80) !important;
+
+}
+#iicon {
+    color: white;
+}
+/* body-part */
+.bodyy-part{
+    margin-top: 160px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 3px white;
+}
+.bodyy-part2{
+  background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+
+}
+.bodyy-part a{
+    box-shadow: 2px 2px 3px black;
+}
+/* pricing part */
+.price .card{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+}
+.price .card h5{
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 3px black;
+    color: white;
+}
+ .price .card p{
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 3px white;
+}
+  .price .card li{
+    font-style: italic;
+    text-shadow: 2px 2px 3px white;
+}
+    .price .card a {
+    font-style: italic;
+    box-shadow: 2px 2px 3px black;
+}
+ /* footer */
+.footer .svg{
+    height: 300px;
+
+}

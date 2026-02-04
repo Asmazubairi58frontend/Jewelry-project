@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 247, 195);
+    overflow-x: hidden;
+
+}
+
+.nav .navbar {
+    box-shadow: 2px 2px 3px black;
+    position: fixed;
+    background-color: rgb(200, 211, 80);
+
+}
+
+
+.nav .offcanvas a {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: black;
+}
+
+.nav .offcanvas {
+    background-color: rgb(243, 247, 195);
+
+}
+
+.nav .offcanvas a:hover {
+    background-color: white;
+
+}
+
+.work .photoo {
+    width: 220px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav .mark {
+    background-color: rgb(200, 211, 80) !important;
+
+}
+
+#iicon {
+    color: white;
+}
+
+/* header */
+.head {
+    background-image: linear-gradient(rgb(243, 247, 195), white);
+    margin-top: 90px;
+}
+
+.head .text-head {
+    font-style: italic;
+}
+
+.head .text-head1 {
+    font-style: italic;
+}
+
+/* jewelry-card */
+.custom-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-img {
+    height: 270px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.jewelry .card {
+    border-radius: 15px;
+}
+
+.jewelry p {
+    font-style: italic;
+}
+
+.jewelry a {
+    font-style: italic;
+    background-color: rgb(200, 211, 80);
+}
+
+/* footer-part */
+.footer-page {
+    font-style: italic;
+}
+
+.footer-page a {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin: 7px;
+}
+
+.footer-page a:hover {
+    color: white;
+    background-color: rgb(200, 211, 80);
+    padding: 8px;
+    margin: 7px;
+}
+
+.footer-page h5 {
+    text-shadow: 2px 2px 3px white;
+}

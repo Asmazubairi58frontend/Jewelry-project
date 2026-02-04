@@ -1,0 +1,105 @@
+        /* navbar */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color:rgb(243, 247, 195);
+            overflow-x: hidden;
+        }
+        .nav .navbar{
+            box-shadow: 2px 2px 3px black;
+            position: fixed;
+            background-color: rgb(200, 211, 80);
+        }
+        .nav .offcanvas a {
+            display: block;
+            text-align: center;
+            font-style: italic;
+            letter-spacing: 1px;
+            line-height: 38px;
+            color: black;
+        }
+        .nav .offcanvas{
+         background-color:rgb(243, 247, 195);
+        }
+        .nav .offcanvas a:hover {
+            background-color: white;
+        }
+        .work .photoo{
+            width: 220px;
+            height: 60px;
+            padding: 0;
+            margin: 0;
+        }
+        .nav .mark{
+            background-color: rgb(200, 211, 80) !important;
+        }
+        #iicon {
+            color: white;
+        }
+        /* poster */
+        .vvideo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 40%;
+            object-fit: cover;
+            margin-top: 48px;
+        }
+
+        /* text */
+        .ccard .line {
+            margin-top: 150px;
+            text-align: center;
+            text-indent: initial;
+            text-shadow: 2px 2px 3px whitesmoke;
+            font-style: italic;
+        }
+        .ccard .text-card {
+            text-align: center;
+            font-style: italic;
+            text-indent: initial;
+        }
+
+        .card {
+            margin-top: 30px;
+        }
+        .ccard .card h2 {
+            color: white;
+            text-shadow: 2px 2px 3px black;
+        }
+        .ccard .card:hover {
+            background-color:black;
+            color: white;
+        }
+        /* background */
+        .bag h2 {
+            text-align: center;
+            font-style: italic;
+            text-shadow: white;
+
+        }
+        .bag .text{
+            font-style: italic;
+            text-shadow: 2px 2px 3px  white;
+        }
+                /* footer-part */
+        .footer-page{
+            font-style: italic;
+        }
+        .footer-page a{
+            color: black;
+            background-color: white;
+            padding: 5px;
+            margin: 7px;
+        }
+        .footer-page a:hover{
+            color: white;
+            background-color:rgb(200, 211, 80) ;
+            padding: 8px;
+            margin: 7px;
+        }
+         .footer-page h5{
+            text-shadow: 2px 2px 3px white;
+        }
+

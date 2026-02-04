@@ -1,0 +1,91 @@
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background-color:rgb(243, 247, 195);
+                    overflow-x: hidden;
+                }
+                .nav .navbar{
+                    box-shadow: 2px 2px 3px black;
+                    position: fixed;
+                    background-color: rgb(200, 211, 80);
+        
+                }
+                .nav .offcanvas a {
+                    display: block;
+                    text-align: center;
+                    font-style: italic;
+                    letter-spacing: 1px;
+                    line-height: 38px;
+                    color: black;
+                }
+                .nav .offcanvas{
+                 background-color:rgb(243, 247, 195);
+        
+                }
+                .nav .offcanvas a:hover {
+                    background-color: white;
+                }
+                .work .photoo{
+                    width: 220px;
+                    height: 60px;
+                    padding: 0;
+                    margin: 0;
+                }
+                .nav .mark{
+                    background-color: rgb(200, 211, 80) !important; 
+                }
+                #iicon {
+                    color: white;
+                }
+                /* header */
+                .head{
+                    background-image: url(./Telegram/goli.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    margin-top: 61px;
+                    padding: 0;
+                    font-style: italic;
+                    text-shadow: 2px 2px 3px white;
+                }
+                .head .head2{
+                   background-color: rgba(240, 248, 255, 0.5);
+                }
+                .head a{
+                  color: black;
+                  background-color: rgb(200, 211, 80);
+                }
+                /* about-part */
+                .about{
+                 background-image: linear-gradient(white 30%, rgb(243, 247, 195));
+                 margin-top: 90px;
+                 text-align: center;
+                 font-style: italic;
+                }
+                /* second-part */
+                 .aboutt{
+                 background-image: linear-gradient(white 30%, rgb(243, 247, 195));
+                 margin-top: 90px;
+                 text-align: center;
+                 font-style: italic;
+                }
+                 /* footer-part */
+                .footer-page{
+                    font-style: italic;
+                }
+                .footer-page a{
+                    color: black;
+                    background-color: white;
+                    padding: 5px;
+                    margin: 7px;
+                }
+                .footer-page a:hover{
+                    color: white;
+                    background-color:rgb(200, 211, 80) ;
+                    padding: 8px;
+                    margin: 7px;
+                }
+                 .footer-page h5{
+                    text-shadow: 2px 2px 3px white;
+                }

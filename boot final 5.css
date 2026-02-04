@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 247, 195);
+
+    overflow-x: hidden;
+}
+
+.nav .navbar {
+    box-shadow: 2px 2px 3px black;
+    position: fixed;
+    background-color: rgb(200, 211, 80);
+
+}
+
+
+.nav .offcanvas a {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: black;
+}
+
+.nav .offcanvas {
+    background-color: rgb(243, 247, 195);
+
+}
+
+.nav .offcanvas a:hover {
+    background-color: white;
+
+}
+
+.work .photoo {
+    width: 220px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav .mark {
+    background-color: rgb(200, 211, 80) !important;
+
+}
+#iicon {
+    color: white;
+}
+
+/* header */
+.background {
+    background: url(Telegram/green.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 570px;
+    margin-top: 60px;
+    background-attachment: fixed;
+}
+
+.main-photo .main {
+    height: 530px;
+}
+
+.second-part #order {
+    align-items: center;
+    position: center;
+    background-color: rgb(200, 211, 80);
+    font-style: italic;
+}
+
+.second-part h2 {
+    font-style: italic;
+}
+
+.second-part p {
+    font-style: italic;
+}
+
+.second-part li {
+    font-style: italic;
+}
+
+.view h1 {
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 3px white;
+}
+
+.view img {
+    height: 270px;
+}
+.main-photo .first-part{
+ background-image: linear-gradient(rgb(243, 247, 195), white);
+}
+        /* footer-part */
+.footer-page{
+    font-style: italic;
+}
+.footer-page a{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin: 7px;
+}
+.footer-page a:hover{
+    color: white;
+    background-color:rgb(200, 211, 80) ;
+    padding: 8px;
+    margin: 7px;
+}
+ .footer-page h5{
+    text-shadow: 2px 2px 3px white;
+}
